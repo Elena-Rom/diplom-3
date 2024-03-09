@@ -3,10 +3,13 @@ import api.UserData;
 import api.UserGenerator;
 import browser.BrowserDriver;
 import io.qameta.allure.junit4.DisplayName;
-import org.apache.commons.lang3.RandomStringUtils;
-import org.junit.*;
-import pom.MainPage;
 import io.restassured.RestAssured;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import pom.MainPage;
 
 public class AuthorisationTest {
 

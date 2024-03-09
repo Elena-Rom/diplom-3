@@ -4,7 +4,10 @@ import api.UserGenerator;
 import browser.BrowserDriver;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
-import org.junit.*;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
 import pom.LoginPage;
 import pom.MainPage;
 
